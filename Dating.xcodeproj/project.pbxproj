@@ -6,17 +6,51 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		125953B72E1AC9B600BB700A /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125953B42E1AC9B600BB700A /* MainView.swift */; };
+		125953B82E1AC9B600BB700A /* DatingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125953B52E1AC9B600BB700A /* DatingApp.swift */; };
+		125953B92E1AC9B600BB700A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 125953B32E1AC9B600BB700A /* Assets.xcassets */; };
+		125953BE2E1AC9EA00BB700A /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125953BD2E1AC9EA00BB700A /* FeedView.swift */; };
+		125953C02E1ACBEF00BB700A /* ProfileCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125953BF2E1ACBEF00BB700A /* ProfileCardView.swift */; };
+		125953C32E1ACE9A00BB700A /* OnlineLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125953C22E1ACE9A00BB700A /* OnlineLabel.swift */; };
+		125953C52E1ACEAF00BB700A /* OnlineStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125953C42E1ACEAF00BB700A /* OnlineStatus.swift */; };
+		125953C72E1AD8A700BB700A /* DatingProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125953C62E1AD8A700BB700A /* DatingProfile.swift */; };
+		125953C92E1ADD6000BB700A /* ProfileCardPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125953C82E1ADD6000BB700A /* ProfileCardPhoto.swift */; };
+		125953CB2E1ADE6900BB700A /* ProfileCardButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125953CA2E1ADE6900BB700A /* ProfileCardButtons.swift */; };
+		125953CD2E1AE36D00BB700A /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 125953CC2E1AE36D00BB700A /* Lato-Bold.ttf */; };
+		125953CF2E1AE37C00BB700A /* Lato-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 125953CE2E1AE37C00BB700A /* Lato-ExtraBold.ttf */; };
+		125953D22E1AEAE100BB700A /* Lato-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 125953D12E1AEAE100BB700A /* Lato-SemiBold.ttf */; };
+		125953D52E1AF28800BB700A /* Paywall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125953D42E1AF28800BB700A /* Paywall.swift */; };
+		125953D72E1AF36500BB700A /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 125953D62E1AF36500BB700A /* Lato-Regular.ttf */; };
+		125953DA2E1AFC7200BB700A /* FeedOnlineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125953D92E1AFC7200BB700A /* FeedOnlineView.swift */; };
+		125953DD2E1BB1FE00BB700A /* PaywallMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125953DC2E1BB1FE00BB700A /* PaywallMessage.swift */; };
+		125953E22E1BD52300BB700A /* ScoreButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125953E12E1BD52300BB700A /* ScoreButton.swift */; };
+		125953E42E1BD59200BB700A /* Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125953E32E1BD59200BB700A /* Title.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		125953A52E1AC99700BB700A /* Dating.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dating.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		125953B32E1AC9B600BB700A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		125953B42E1AC9B600BB700A /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		125953B52E1AC9B600BB700A /* DatingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatingApp.swift; sourceTree = "<group>"; };
+		125953BD2E1AC9EA00BB700A /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
+		125953BF2E1ACBEF00BB700A /* ProfileCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCardView.swift; sourceTree = "<group>"; };
+		125953C22E1ACE9A00BB700A /* OnlineLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlineLabel.swift; sourceTree = "<group>"; };
+		125953C42E1ACEAF00BB700A /* OnlineStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlineStatus.swift; sourceTree = "<group>"; };
+		125953C62E1AD8A700BB700A /* DatingProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatingProfile.swift; sourceTree = "<group>"; };
+		125953C82E1ADD6000BB700A /* ProfileCardPhoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCardPhoto.swift; sourceTree = "<group>"; };
+		125953CA2E1ADE6900BB700A /* ProfileCardButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCardButtons.swift; sourceTree = "<group>"; };
+		125953CC2E1AE36D00BB700A /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Bold.ttf"; sourceTree = "<group>"; };
+		125953CE2E1AE37C00BB700A /* Lato-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-ExtraBold.ttf"; sourceTree = "<group>"; };
+		125953D02E1AE3C300BB700A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		125953D12E1AEAE100BB700A /* Lato-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-SemiBold.ttf"; sourceTree = "<group>"; };
+		125953D42E1AF28800BB700A /* Paywall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Paywall.swift; sourceTree = "<group>"; };
+		125953D62E1AF36500BB700A /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
+		125953D92E1AFC7200BB700A /* FeedOnlineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedOnlineView.swift; sourceTree = "<group>"; };
+		125953DC2E1BB1FE00BB700A /* PaywallMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallMessage.swift; sourceTree = "<group>"; };
+		125953E12E1BD52300BB700A /* ScoreButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreButton.swift; sourceTree = "<group>"; };
+		125953E32E1BD59200BB700A /* Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Title.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		125953A72E1AC99700BB700A /* Dating */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Dating;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		125953A22E1AC99700BB700A /* Frameworks */ = {
@@ -32,7 +66,7 @@
 		1259539C2E1AC99700BB700A = {
 			isa = PBXGroup;
 			children = (
-				125953A72E1AC99700BB700A /* Dating */,
+				125953B62E1AC9B600BB700A /* Dating */,
 				125953A62E1AC99700BB700A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +77,89 @@
 				125953A52E1AC99700BB700A /* Dating.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		125953B62E1AC9B600BB700A /* Dating */ = {
+			isa = PBXGroup;
+			children = (
+				125953D02E1AE3C300BB700A /* Info.plist */,
+				125953B52E1AC9B600BB700A /* DatingApp.swift */,
+				125953D82E1AF36B00BB700A /* Fonts */,
+				125953B32E1AC9B600BB700A /* Assets.xcassets */,
+				125953BC2E1AC9D300BB700A /* Model */,
+				125953BA2E1AC9C300BB700A /* Views */,
+			);
+			path = Dating;
+			sourceTree = "<group>";
+		};
+		125953BA2E1AC9C300BB700A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				125953B42E1AC9B600BB700A /* MainView.swift */,
+				125953E02E1BD50B00BB700A /* ToolBarItems */,
+				125953D32E1AF26F00BB700A /* Paywall */,
+				125953BB2E1AC9C900BB700A /* Feed */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		125953BB2E1AC9C900BB700A /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				125953BD2E1AC9EA00BB700A /* FeedView.swift */,
+				125953D92E1AFC7200BB700A /* FeedOnlineView.swift */,
+				125953C12E1ACE7500BB700A /* CardView */,
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		125953BC2E1AC9D300BB700A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				125953C42E1ACEAF00BB700A /* OnlineStatus.swift */,
+				125953C62E1AD8A700BB700A /* DatingProfile.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		125953C12E1ACE7500BB700A /* CardView */ = {
+			isa = PBXGroup;
+			children = (
+				125953BF2E1ACBEF00BB700A /* ProfileCardView.swift */,
+				125953C82E1ADD6000BB700A /* ProfileCardPhoto.swift */,
+				125953CA2E1ADE6900BB700A /* ProfileCardButtons.swift */,
+				125953C22E1ACE9A00BB700A /* OnlineLabel.swift */,
+			);
+			path = CardView;
+			sourceTree = "<group>";
+		};
+		125953D32E1AF26F00BB700A /* Paywall */ = {
+			isa = PBXGroup;
+			children = (
+				125953D42E1AF28800BB700A /* Paywall.swift */,
+				125953DC2E1BB1FE00BB700A /* PaywallMessage.swift */,
+			);
+			path = Paywall;
+			sourceTree = "<group>";
+		};
+		125953D82E1AF36B00BB700A /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				125953D62E1AF36500BB700A /* Lato-Regular.ttf */,
+				125953CC2E1AE36D00BB700A /* Lato-Bold.ttf */,
+				125953CE2E1AE37C00BB700A /* Lato-ExtraBold.ttf */,
+				125953D12E1AEAE100BB700A /* Lato-SemiBold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		125953E02E1BD50B00BB700A /* ToolBarItems */ = {
+			isa = PBXGroup;
+			children = (
+				125953E12E1BD52300BB700A /* ScoreButton.swift */,
+				125953E32E1BD59200BB700A /* Title.swift */,
+			);
+			path = ToolBarItems;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +176,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				125953A72E1AC99700BB700A /* Dating */,
 			);
 			name = Dating;
 			packageProductDependencies = (
@@ -109,6 +223,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				125953CF2E1AE37C00BB700A /* Lato-ExtraBold.ttf in Resources */,
+				125953D22E1AEAE100BB700A /* Lato-SemiBold.ttf in Resources */,
+				125953D72E1AF36500BB700A /* Lato-Regular.ttf in Resources */,
+				125953B92E1AC9B600BB700A /* Assets.xcassets in Resources */,
+				125953CD2E1AE36D00BB700A /* Lato-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +238,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				125953B72E1AC9B600BB700A /* MainView.swift in Sources */,
+				125953BE2E1AC9EA00BB700A /* FeedView.swift in Sources */,
+				125953DA2E1AFC7200BB700A /* FeedOnlineView.swift in Sources */,
+				125953D52E1AF28800BB700A /* Paywall.swift in Sources */,
+				125953C02E1ACBEF00BB700A /* ProfileCardView.swift in Sources */,
+				125953B82E1AC9B600BB700A /* DatingApp.swift in Sources */,
+				125953C52E1ACEAF00BB700A /* OnlineStatus.swift in Sources */,
+				125953C72E1AD8A700BB700A /* DatingProfile.swift in Sources */,
+				125953C92E1ADD6000BB700A /* ProfileCardPhoto.swift in Sources */,
+				125953E42E1BD59200BB700A /* Title.swift in Sources */,
+				125953CB2E1ADE6900BB700A /* ProfileCardButtons.swift in Sources */,
+				125953DD2E1BB1FE00BB700A /* PaywallMessage.swift in Sources */,
+				125953E22E1BD52300BB700A /* ScoreButton.swift in Sources */,
+				125953C32E1ACE9A00BB700A /* OnlineLabel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,11 +389,13 @@
 				DEVELOPMENT_TEAM = BZY75949H5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Dating/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -268,9 +403,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.A.Dating;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -284,11 +423,13 @@
 				DEVELOPMENT_TEAM = BZY75949H5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Dating/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -296,9 +437,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.A.Dating;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
